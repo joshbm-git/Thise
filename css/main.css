@@ -1,0 +1,232 @@
+a {
+    text-decoration: none;
+}
+
+
+/* Intro
+-----------------------------------------------------------------------------*/
+
+.intro {}
+
+.laptopbanner {
+    display: none;
+}
+
+.intro figure {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro img {
+    filter: brightness(50%)
+}
+
+.intro figcaption {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    padding: 1em;
+    width: 100%;
+    color: white;
+    text-shadow: 0 3px black;
+    font-size: 1em;
+}
+
+/* product
+-----------------------------------------------------------------------------*/
+#product {
+    margin-bottom: 5em;
+    margin-top: 4em;
+    text-align: center;
+}
+
+#product h2 {
+    font-size: 1.2em;
+}
+
+#product figure {
+    margin: 0 auto;
+}
+
+#product img {
+    width: 75%;
+    margin-top: 2em;
+    margin-bottom: 1.2em;
+}
+
+#product .button {
+    margin-top: 2em;
+}
+
+#product figcaption h2,
+#product figcaption p {}
+
+#productlaptop {
+    display: none;
+}
+
+/* Flavors
+-----------------------------------------------------------------------------*/
+.button {
+    padding: 0.75em;
+    border: solid 1px;
+    background-color: #67060e;
+    color: white;
+    font-size: 1em;
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    color: white;
+}
+
+/* Inspi
+-----------------------------------------------------------------------------*/
+.inspi {
+    text-align: center;
+    border: none;
+}
+
+.inspi h2 {
+    font-size: 1.2em;
+}
+
+.inspi figure {
+    padding: 0.3em;
+}
+
+.inspiwrapper {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.inspi .button {
+    background-color: white;
+    color: black;
+    border: solid 1px;
+}
+
+
+
+/* Tablet*/
+
+@media (min-width: 768px) {
+
+    .intro figcaption {
+        font-size: 1.5em;
+    }
+
+    #product img {
+        width: 45%;
+    }
+
+    #product h2,
+    .inspi h2 {
+        font-size: 1.4em;
+    }
+
+    .inspiwrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .inspi .button {
+        margin-top: 1em;
+    }
+
+    .button {
+        width: 65%;
+    }
+
+
+
+}
+
+/* Laptop */
+
+@media (min-width: 1024px) {
+
+    .laptopbanner {
+        display: block;
+    }
+
+    .mobilebanner {
+        display: none;
+    }
+
+    #product {
+        display: none;
+    }
+
+    #productlaptop {
+        display: block;
+        margin-bottom: 3em;
+        margin-top: 3em;
+    }
+
+    #productlaptop figure {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5em;
+    }
+
+    #productlaptop figure img {
+        width: 50%;
+    }
+
+    #productlaptop figcaption {
+        text-align: center;
+        width: 50%;
+    }
+
+    #productlaptop figcaption h2,
+    #productlaptop figcaption p {
+        margin-bottom: 0.5em;
+        font-size: 1.em;
+
+    }
+
+    .inspiwrapper {
+        display: flex;
+        width: 100%;
+    }
+
+
+    .inspi {
+        width: 100%;
+        padding: 0;
+    }
+
+    .inspi h2 {
+        margin-bottom: 1em;
+    }
+
+    .inspi .button {
+        width: 45%;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+
+
+}
+
+/* Desktop */
+
+@media (min-width: 1080px) {
+
+    #productlaptop figure {
+        padding: 5em 15em 5em 15em;
+    }
+
+    #productlaptop img {
+        max-width: 42%;
+    }
+
+}

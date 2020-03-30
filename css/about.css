@@ -1,0 +1,69 @@
+/* Intro
+-----------------------------------------------------------------------------*/
+
+.intro figure {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro img {
+    filter: brightness(60%)
+}
+
+.intro figcaption {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    padding: 1em;
+    width: 100%;
+    color: white;
+    font-size: 1.2em;
+    text-shadow: 0 3px black;
+}
+
+/* Description
+-----------------------------------------------------------------------------*/
+.description {
+    padding: 1.5em;
+}
+
+.description h2,
+.description h3,
+.description p {
+    margin-bottom: 1em;
+
+}
+
+.description h2 {
+    font-size: 1.2em;
+}
+
+.description h3 {
+    font-size: 1.1em;
+}
+
+.description p {
+    font-size: 1em;
+}
+
+
+/* Tablet */
+
+@media (min-width: 768px) {
+    .intro figcaption {
+        font-size: 1.5em;
+    }
+
+    .description {
+        width: 65%;
+        margin: 0 auto;
+    }
+}
+
+/* Laptop */
+
+@media (min-width: 1024px) {}

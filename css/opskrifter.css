@@ -1,0 +1,55 @@
+/* Recipes
+-----------------------------------------------------------------------------*/
+.title {
+    text-align: center;
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+}
+
+.recipes a {
+    text-decoration: none;
+}
+
+.recipes figure {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+.recipes figcaption {
+    padding: 0.1em;
+}
+
+/* Tablet */
+
+@media (min-width: 768px) {
+    .recipes figure {
+        width: 75%;
+        margin: auto;
+        margin-bottom: 5em;
+        text-align: center;
+        border: solid 1px gainsboro;
+    }
+
+    .recipes figcaption {
+        font-size: 1.3em;
+        padding: 0.5em;
+    }
+
+
+}
+
+/* Laptop */
+
+@media (min-width: 1024px) {
+
+    .recipes {
+        display: flex;
+    }
+
+    .recipes figure {
+        width: 95%;
+    }
+
+}

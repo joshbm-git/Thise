@@ -1,0 +1,57 @@
+Same height size on images on index
+darken images in photoshop
+fix footer with sprites
+Fix yoghurt nutritional info
+Fix titles and meta descriptions
+Make favicon
+
+Considerations:
+presenting the three flavors. Slideshow or 3 vertical
+
+After hand in:
+Put recipes in specific yoghurts
+Make other recipes
+Link to other recipes
+
+            <article class="flav">
+                <h2>Find din smag</h2>
+                <a href="yoghurt1.html"><button class="button button1">Jordbær</button></a>
+                <a href="yoghurt2.html"><button class="button button2">Pære</button></a>
+                <a href="yoghurt3.html"><button class="button button3">Blåbær</button></a>
+            </article>
+            
+            .button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.5em;
+    cursor: pointer;
+    border-radius: 100%;
+    font-size: 1.3em;
+    width: 4em;
+    height: 4em;
+}
+
+.button1 {
+    background-color: red;
+}
+
+.button2 {
+    background-color: green;
+}
+
+.button3 {
+    background-color: blue;
+}
+
+What to change:
+Change ingredients page
+
+
+
+Changelog:
+Change color of button to color of yoghurt
+Make size of both buttons the same
+Changed background color

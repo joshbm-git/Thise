@@ -1,0 +1,166 @@
+ a {
+     text-decoration: none;
+ }
+
+ main {
+     padding: 0.5em;
+     margin-bottom: 2em;
+ }
+
+ .button {
+     padding: 0.75em;
+     border: solid 1px;
+     background-color: #67060e;
+     color: white;
+     font-size: 1em;
+     display: block;
+     width: 85%;
+     margin: 0 auto;
+     text-decoration: none;
+     font-weight: bold;
+     display: block;
+     color: white;
+ }
+
+
+ .description,
+ .informationwrapper {
+     margin: 0 auto;
+ }
+
+ /* Product
+-----------------------------------------------------------------------------*/
+ #productwrapper figure {
+     max-width: 75%;
+     margin: 0 auto;
+     text-align: center;
+     margin-top: 3em;
+     margin-bottom: 3em;
+ }
+
+
+ /* Description
+-----------------------------------------------------------------------------*/
+ .description {
+     border: solid 2px lightgray;
+     padding: 1.5em;
+     margin-bottom: 3em;
+ }
+
+ .description h2 {
+     text-align: center;
+ }
+
+ .description p {
+     margin-top: 1em;
+ }
+
+ /* Information
+-----------------------------------------------------------------------------*/
+
+ .informationwrapper {
+     margin-bottom: 3em;
+     text-align: center;
+ }
+
+ .information {
+     width: 100%;
+     margin-top: 1em;
+     display: flex;
+ }
+
+ .informationtop,
+ .informationbottom {
+     margin: 0 auto;
+     width: 70%;
+     text-align: center;
+     border: solid 1px lightgray;
+     padding-top: 1em;
+ }
+
+ .information p {
+     margin-bottom: 1em;
+ }
+
+
+
+
+ /* Recipes
+-----------------------------------------------------------------------------*/
+ .recipewrapper h2 {
+     text-align: center;
+     margin-bottom: 2em;
+ }
+
+ .recipes a {
+     text-decoration: none;
+ }
+
+ .recipes figure {
+     width: 80%;
+     margin: auto;
+     margin-bottom: 3em;
+     text-align: center;
+ }
+
+ .recipes figcaption {
+     padding: 0.1em;
+ }
+
+ /* Tablet */
+
+ @media (min-width: 768px) {
+     #productwrapper figure {
+         max-width: 50%;
+     }
+
+
+     .description,
+     .informationwrapper {
+         width: 90%;
+     }
+
+     .informationwrapper {
+         margin-bottom: 8em;
+     }
+
+     .recipes figure {
+         width: 75%;
+         margin: auto;
+         margin-bottom: 5em;
+         text-align: center;
+         border: solid 1px gainsboro;
+     }
+
+     .recipes figcaption {
+         font-size: 1.3em;
+         padding: 0.5em;
+     }
+ }
+
+
+ /* Laptop */
+
+ @media (min-width: 1024px) {
+
+     .description,
+     .informationwrapper {
+         width: 60%;
+     }
+
+     #productwrapper figure {
+         max-width: 25%;
+     }
+
+     #productwrapper figcaption {
+         margin-bottom: 1.5em;
+     }
+
+     .recipes {
+         display: flex;
+     }
+
+     .recipes figure {
+         width: 95%;
+     }
+ }
